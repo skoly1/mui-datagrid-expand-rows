@@ -1,0 +1,164 @@
+[
+  {
+    "id": "1",
+    "first_name": "John",
+    "last_name": "Doe",
+    "ph_no": "123-456-7890",
+    "family": [
+      {
+        "first_name": "Jane",
+        "last_name": "Doe",
+        "ph_no": "234-567-8901",
+        "relation": "Spouse"
+      },
+      {
+        "first_name": "Alice",
+        "last_name": "Doe",
+        "ph_no": "345-678-9012",
+        "relation": "Daughter"
+      },
+      {
+        "first_name": "Bob",
+        "last_name": "Doe",
+        "ph_no": "456-789-0123",
+        "relation": "Son"
+      },
+      {
+        "first_name": "Emma",
+        "last_name": "Doe",
+        "ph_no": "567-890-1234",
+        "relation": "Daughter"
+      },
+      {
+        "first_name": "Mike",
+        "last_name": "Doe",
+        "ph_no": "678-901-2345",
+        "relation": "Son"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "first_name": "Emily",
+    "last_name": "Smith",
+    "ph_no": "789-012-3456",
+    "family": [
+      {
+        "first_name": "David",
+        "last_name": "Smith",
+        "ph_no": "890-123-4567",
+        "relation": "Husband"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "first_name": "Michael",
+    "last_name": "Johnson",
+    "ph_no": "901-234-5678",
+    "family": [
+      {
+        "first_name": "Sarah",
+        "last_name": "Johnson",
+        "ph_no": "012-345-6789",
+        "relation": "Wife"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "first_name": "Lisa",
+    "last_name": "Taylor",
+    "ph_no": "123-456-7891",
+    "family": [
+      {
+        "first_name": "Tom",
+        "last_name": "Taylor",
+        "ph_no": "234-567-8902",
+        "relation": "Brother"
+      },
+      {
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "ph_no": "345-678-9013",
+        "relation": "Sister"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "first_name": "Brian",
+    "last_name": "Wilson",
+    "ph_no": "456-789-0124",
+    "family": [
+      {
+        "first_name": "Natalie",
+        "last_name": "Wilson",
+        "ph_no": "567-890-1235",
+        "relation": "Mother"
+      },
+      {
+        "first_name": "George",
+        "last_name": "Wilson",
+        "ph_no": "678-901-2346",
+        "relation": "Father"
+      },
+      {
+        "first_name": "Grace",
+        "last_name": "Wilson",
+        "ph_no": "789-012-3457",
+        "relation": "Sister"
+      },
+      {
+        "first_name": "Max",
+        "last_name": "Wilson",
+        "ph_no": "890-123-4568",
+        "relation": "Brother"
+      },
+      {
+        "first_name": "Lily",
+        "last_name": "Wilson",
+        "ph_no": "901-234-5679",
+        "relation": "Sister"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "first_name": "Angela",
+    "last_name": "Brown",
+    "ph_no": "789-012-3468",
+    "family": [
+      {
+        "first_name": "James",
+        "last_name": "Brown",
+        "ph_no": "890-123-4579",
+        "relation": "Husband"
+      },
+      {
+        "first_name": "Ella",
+        "last_name": "Brown",
+        "ph_no": "901-234-5680",
+        "relation": "Daughter"
+      },
+      {
+        "first_name": "Leo",
+        "last_name": "Brown",
+        "ph_no": "012-345-6791",
+        "relation": "Son"
+      },
+      {
+        "first_name": "Chloe",
+        "last_name": "Brown",
+        "ph_no": "123-456-7802",
+        "relation": "Daughter"
+      },
+      {
+        "first_name": "Noah",
+        "last_name": "Brown",
+        "ph_no": "234-567-8913",
+        "relation": "Son"
+      }
+    ]
+  }
+]
