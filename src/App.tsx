@@ -73,21 +73,8 @@ export default function App() {
   }, [apiRef, expandedRowData]);
 
   return (
-    <div style={{ width: "500px", marginLeft: "4rem" }}>
-      <div style={{ height: "500px", width: "100%" }}>
-        <DataGrid
-          disableVirtualization
-          rows={data}
-          columns={columns}
-          getRowClassName={(params) => {
-            if (params.id === clickedIndex) return "expand-row";
-            return "";
-          }}
-          disableRowSelectionOnClick
-          autoHeight
-          apiRef={apiRef}
-        />
-      </div>
+    <div style={{ height: "600px", width: "600px", marginLeft: "4rem" }}>
+      <DataGrid rows={data} columns={columns} autoHeight apiRef={apiRef} />
     </div>
   );
 }

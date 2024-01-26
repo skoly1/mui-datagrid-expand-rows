@@ -1,30 +1,53 @@
-# React + TypeScript + Vite
+# MUI Datagrid X Expandable Rows
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates a logic to manipulate rows in a DataGrid using React and Material-UI's DataGrid component to implement expandable rows.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+What things you need to install the software and how to install them
+npm install @material-ui/data-grid
 
-- Configure the top-level `parserOptions` property like this:
+### Installing
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+A step by step series of examples that tell you how to get a development env running
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+npm install 
+npm start
+
+## Authors
+
+* **Sai Teja** - *Initial work* - [skoly1](https://github.com/skoly1)
+
+## Project Structure
+
+The main file in this project is `App.tsx`. This file contains a React component that renders a data grid with expandable rows.
+
+## How it Works
+
+The `App` component maintains two pieces of state: `clickedIndex` and `expandedRowData`. 
+
+`clickedIndex` is the index of the row that the user has clicked to expand or collapse. 
+
+`expandedRowData` is the data for the row that is currently expanded.
+
+The `columns` array defines the columns of the data grid. The `id` column has a custom `renderCell` function that renders an expand/collapse button. When this button is clicked, `clickedIndex` and `expandedRowData` are updated, which triggers a re-render of the component.
+
+In the `useEffect` hook, if `expandedRowData` is defined, the rows of the data grid are updated to include the expanded row's data. If `expandedRowData` is `undefined`, the rows are reset to the original data.
+
+## Dependencies
+This project uses the following dependencies:
+
+@mui/x-data-grid: for the data grid component
+@mui/material: for the IconButton component
+@mui/icons-material: for the KeyboardArrowUpIcon and KeyboardArrowDownIcon components
+react: for creating the component
+Make sure to install these dependencies in your project before using the App component.
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
